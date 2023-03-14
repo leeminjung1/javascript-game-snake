@@ -1,0 +1,100 @@
+body{
+    font-family: 'Silkscreen';
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+    padding: 0.75rem;
+    background-color: #e6e3dd;
+    border-radius: 3% 3% 15% 3%;
+    box-shadow:  20px 20px 60px #c4c1bc,
+             -20px -20px 60px #fffffe;
+}
+#menuTable {
+    border-collapse: collapse; 
+    display: inline-block;
+    width: 340px;
+}
+.controllerBtn{
+    height: 15px;
+    width: 80px; 
+    background: #aaa; 
+    border: 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.underController{
+    transform: rotate(-20deg);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.controllerContainer{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.c{
+    display: inline-block;
+    color: #141d84;
+    font-weight: bold;
+    padding: 10px;
+	vertical-align:middle;
+}
+
+.c .a{
+    display: inline-block;
+    margin: 10px;
+}
+
+#snakeTable {
+    margin: 0 auto;
+    display: table;
+    border-spacing: 3px;
+    background-color: #95a37f;
+    border: 0.1rem solid black;
+}
+.row{
+    display: table-row;
+}
+.block{
+    display: table-cell;
+}
+#snakeTable .block{
+    background-color: #9dad86;
+    width: 13px;
+    height: 13px;
+}
+#snakeTable .snake{
+    background-color: #000002;
+}
+#snakeTable .food{
+    background-color: #000002;
+}
+.center{text-align: center; padding: 0.75rem;}
+#controller {
+    display: block;
+    padding: 0.75rem;
+}
+#controller .block{
+    width: 20px;
+    height: 20px;
+}
+
+.btn{
+    background: #000002;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.alignLeft{float: left;}
+.alignRight{float: right;}
+
+.redBtn{
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #960c20;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
